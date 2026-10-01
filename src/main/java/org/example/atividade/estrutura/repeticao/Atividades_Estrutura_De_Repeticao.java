@@ -1,0 +1,37 @@
+package org.example.atividade.estrutura.repeticao;
+
+public class Atividades_Estrutura_De_Repeticao {
+    static void main() {
+
+//        for(int i = 1; i <= 30; i++ ){
+//            System.out.println(i);
+//        }
+
+//        2 - Mostre a contagem regressiva de 10 até 1 e depois a palavra "Fim!"
+
+//        for (int i = 10; i >= 1; i--) {
+//            System.out.println(i);
+//        }
+//        System.out.println("Fim");
+//
+
+//        3 - Faça o mesmo do exercício 1, agora usando while.
+//        Compare os dois códigos.
+//        int i = 1;
+//        while (i <= 30){
+//            System.out.println(i);
+//            i++;
+//        }
+
+        /*
+        4 -  Crie uma variável com um número e mostre a tabuada dele de 1 a 10.
+         */
+
+        int num = 1;
+
+        for (int i = 1; i <= 10; i++){
+            int resultado = num * i;
+            System.out.println(num + " x " + i + " = " + resultado);
+        }
+    }
+}
