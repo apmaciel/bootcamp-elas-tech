@@ -1,4 +1,4 @@
-package org.example.atividade.scanner;
+package org.example.atividadescanner;
 
 import java.util.Scanner;
 

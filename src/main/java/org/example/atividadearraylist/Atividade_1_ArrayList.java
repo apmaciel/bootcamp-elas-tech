@@ -1,7 +1,6 @@
-package org.example.aula10;
+package org.example.atividadearraylist;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Atividade_1_ArrayList {
     static void main() {
