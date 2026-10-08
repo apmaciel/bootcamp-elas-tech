@@ -1,4 +1,4 @@
-package org.example.atividade.estrutura.repeticao;
+package org.example.atividadeestruturaderepeticao;
 
 public class Atividades_Estrutura_De_Repeticao {
     static void main() {
