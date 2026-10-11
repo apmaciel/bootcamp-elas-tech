@@ -3,7 +3,7 @@ package org.example.aula11;
 import java.util.ArrayDeque;
 import java.util.List;
 
-public class Assunto_Pilha {
+public class Assunto_Array_Deque {
     static void main() {
 
         ArrayDeque<String> fila = new ArrayDeque<>();
