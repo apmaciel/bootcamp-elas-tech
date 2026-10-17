@@ -1,6 +1,6 @@
 package org.example.atividadepolimorfismo;
 
-public class Main_Execucao {
+public class MainExecucao {
     static void main() {
 
         Calculadora calcu = new Calculadora();
@@ -29,6 +29,7 @@ public class Main_Execucao {
         prof.profissao = "professora";
         prof.lancarNota("Ana", 8.0);
         System.out.println("\n");
+        prof.apresentar("Professora de Java");
 
         Aluna aluna = new Aluna();
 
@@ -59,6 +60,21 @@ public class Main_Execucao {
 
 
     }
+
+    /*
+    Para que serve o @Override
+
+O @Override é um aviso de intenção. Você diz ao Java: “eu quero sobrescrever um método da mãe, confira para mim”.
+Se a assinatura estiver errada (parâmetro diferente,
+nome com erro de digitação como apresenta()), ele acusa o erro na hora, em vez de deixar o bug passar em silêncio.
+
+Por isso a recomendação é: sempre que for sobrescrever, coloque o @Override.
+
+Para terminar o exercício, volte o método da Professora para a versão sem parâmetro,
+com o @Override, para que o mostrarFicha funcione de novo como antes.
+     */
+
+
 
 
 }

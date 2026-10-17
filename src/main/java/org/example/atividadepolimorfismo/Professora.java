@@ -7,4 +7,8 @@ public class Professora extends Pessoa{
     void lancarNota(String aluna, double nota){
         System.out.printf("%s lançou nota %.1f para %s ", nome, nota, aluna );
     }
+
+    void apresentar(String cargo) {
+        System.out.println("Oi, sou " + nome + ", " + cargo);
+    }
 }
