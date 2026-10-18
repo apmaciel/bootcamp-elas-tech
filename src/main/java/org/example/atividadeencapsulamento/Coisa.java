@@ -4,15 +4,12 @@ public class Coisa {
 
     private String atributo;
 
-    public String getAtributo(){//devolve ou busca
+
+    public String getAtributo(){
         return atributo;
     }
-    public void setAtributo(String atributo){//recebe ou modifica
 
-        if (atributo == null || atributo.isEmpty()) {
-            System.out.println("Inválido! Mantido " + this.atributo);
-            return;
-        }
+    public void setAtributo(String atributo){
         this.atributo = atributo;
     }
 }
